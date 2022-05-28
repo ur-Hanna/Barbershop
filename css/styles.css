@@ -1,0 +1,160 @@
+:root {
+    --nav-color: #fff;
+    --btn-border-color: #FF6C00;
+    --link-active-color: #FF6C00;
+    --btn-back-color: #ff6c00;
+    --btn-text-color: #fff;
+}
+
+body {
+    font-family: 'Open Sans', 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /* background-color будет #fff */
+    background-color: rgb(199, 181, 181);
+}
+
+/* ХЕДЕР */
+.header {
+    /* display: flex; */
+}
+
+.header-nav {}
+
+.logo-link {}
+
+.logo-img {}
+
+.header-list {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-item {
+    height: 16px;
+}
+
+.header-link {
+    font-weight: inherit;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--nav-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--link-active-color);
+}
+
+
+.header-tel {
+    /* width: 120.97px; */
+    height: 16px;
+    font-weight: inherit;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--nav-color);
+}
+
+.header-btn {
+    height: 40px;
+    background-color: #191c26;
+    /* opacity: 0.2; должно быть только для фона кнопки*/
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    color: var(--btn-text-color);
+}
+
+.btn {
+    font-family: 'Open Sans', 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 160px;
+    border: 1px solid var(--btn-border-color);
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+    background: var(--btn-back-color);
+    border: 1px solid var(--btn-border-color);
+    border-radius: 25px;
+}
+
+/* --------ГЛАВНАЯ-------- */
+/* ГЕРОЙ */
+.main-hero {}
+
+.hero-network {
+    display: flex;
+}
+
+.hero-item {}
+
+.network {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+    /* transform: rotate; */
+}
+
+.hero-preheading {
+    height: 15px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9da4bd;
+    opacity: 0.6;
+}
+
+.hero-heading {
+    height: 85px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #FFF;
+}
+
+.hero-afterheading {
+    width: 400px;
+    height: 62px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.hero-link-nav {
+    height: 30px;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+}
